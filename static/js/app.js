@@ -51,9 +51,11 @@ function tableUFO(){
 // when the button is clicked it filters the table using the filterUFO function
 d3.selectAll("#clickbutton").on("click",filterUFO);
 
+
+
 //runs the tableUFO function
 tableUFO();
 
-// create a button to clear the filter
+
 
 // change the comments section to have a width of 40% of the table
