@@ -1,0 +1,10 @@
+.image{
+  position: relative;
+  height: 550px;
+  margin: 0px;
+  background: black;
+  background-image: url(https://wallpapercave.com/wp/nMHgtDa.jpg);
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}

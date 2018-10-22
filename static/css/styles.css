@@ -1,0 +1,62 @@
+.image{
+  position: relative;
+  height: 600px;
+  margin: 0px;
+  background: #1E2132;
+  background-image: url("./Images/rocket2.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav_color{
+background-color: #42425A;
+}
+
+body {
+  background-color: #1E2132;
+}
+
+.header_color{
+  background-color: #836A67;
+}
+
+/* keyframe animations which will be used to animate the title */
+@keyframes title {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    font-size: 7.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes smaller-title {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    font-size: 5.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes subtitle {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
